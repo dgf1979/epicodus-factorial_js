@@ -1,22 +1,23 @@
-## [APPNAME] ##
+## Factorial (JS/jQ) ##
 
 This application is meant to fulfill the requirements of an assignment through Epicodus code school. For more information on Epicodus, see <http://www.epicodus.com/>.
 
 ### Description ###
 
-[simple app description]
+Demonstrate JavaScript/jQuery via a factorial calculation form
 
-**Assignment:** [assignment title]
+**Assignment:** Factorial
 
 **<https://www.learnhowtoprogram.com/table-of-contents>**
 
 ### Author(s) ###
 
-Andrew Finstrom
+Andrew Finstrom & Jesse James
 
 ### Setup ###
 ```
-    setup code or details here
+    run in html server
+    browse to: /factorial.html
 ```
 
 ### License ###
