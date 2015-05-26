@@ -31,15 +31,23 @@ var foo = function(bar) {
 };
 
 var factorial = function(number) {
-  var result = number;
-  if (number === 0) {
-    return 1
-  } else if (number < 0) {
-    return "invalid number"
-  } else {
-    for (var i = number - 1; i > 0; i--) {
-      result *= i;
-    };
+  if(number===0) {
+    return 1;
   }
-  return result;
+  return number*factorial(number-1);
 };
+
+
+// var factorial = function(number) {
+//   var result = number;
+//   if (number === 0) {
+//     return 1
+//   } else if (number < 0) {
+//     return "invalid number"
+//   } else {
+//     for (var i = number - 1; i > 0; i--) {
+//       result *= i;
+//     };
+//   }
+//   return result;
+// };
