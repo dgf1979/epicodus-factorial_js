@@ -8,6 +8,23 @@ $( document ).ready(function() {
     $("#jqtest").text('jQuery Ready')
 });
 
+//form processing
+$(document).ready(function() {
+  $("#result").hide();
+  $("form#factorial").submit(function(event) {
+    var number = parseInt($("input#number").val());
+    var result = factorial(number);
+
+    $(".factorial").text(result);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
+
+
+
+
 //raw js
 var foo = function(bar) {
   return false;
