@@ -12,3 +12,12 @@ $( document ).ready(function() {
 var foo = function(bar) {
   return false;
 };
+
+var factorial = function(number) {
+  var result = number;
+  for (var i = number - 1; i > 0; i--) {
+    result *= i;
+  };
+
+  return result;
+};
